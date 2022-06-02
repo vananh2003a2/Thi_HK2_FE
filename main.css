@@ -1,0 +1,319 @@
+.detail-main {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa */
+}
+
+.background {
+    background-color: #F40567;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 980px;
+    height: 620px;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    /* Độ bóng */
+    width: 880px;
+    height: 550px;
+}
+
+.form-content {
+    width: 540px;
+    height: 550px;
+}
+
+.img-content {
+    background-image: url(https://upload.wikimedia.org/wikipedia/vi/0/0a/Train-To-Busan-Poster.png);
+    background-repeat: no-repeat;
+    /* ảnh k bị lặp */
+    background-size: 360px 570px;
+    width: 360px;
+    height: 550px;
+}
+
+.header::after {
+    background: rgb(230, 230, 230);
+    display: block;
+    margin-left: 24px;
+    content: '';
+    width: 92%;
+    height: 1px;
+    margin-top: 4px;
+}
+
+.title {
+    padding: 22px 24px 8px 24px;
+}
+
+.header-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    font-size: 18px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.bottom {
+    font-size: 10px;
+    color: rgb(102, 100, 100);
+}
+
+.right {
+    display: flex;
+    padding: 32px 0px 8px 0px;
+    margin: auto;
+    margin-right: 20px;
+}
+
+.rating-star {
+    color: #ffea03;
+    margin-right: 4px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.mark-top {
+    font-weight: 600;
+}
+
+.mark-bottom {
+    font-size: 10px;
+    color: rgb(102, 100, 100);
+    margin-top: 4px;
+}
+
+.mark-small {
+    font-size: 12px;
+}
+
+.your-order-form {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.between::after {
+    content: '';
+    width: 92%;
+    height: 1px;
+    margin-top: 16px;
+    background: rgb(230, 230, 230);
+    display: block;
+    margin-left: 24px;
+}
+
+.title-order{
+    margin-left: 24px;
+    text-transform: uppercase;
+    /* Viết hoa */
+}
+
+.item-your_order  {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.table-order {
+    margin-right: 110px;
+} 
+
+table {
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+tr {
+    margin-bottom: 8px;
+}
+
+th {
+    float: left;
+    margin-right: 54px;
+    margin-top: 8px;
+}
+
+td {
+    padding-top: 8px;
+}
+
+.grand {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.total {
+    font-size: 13px;
+    font-weight: 600;
+    color: #D40158;
+}
+
+.checkout-form {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-checkout {
+    margin-left: 24px;
+}
+
+.checkout {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.input-checkout {
+    width: 340px;
+    margin-right: 16px;
+}
+
+.input-card {
+    font-size: 8px;
+    color: #a19f9f;
+}
+
+#name {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 337px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+#card {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 337px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.input-check {
+    position: relative;
+}
+.checkout-visa {
+    position: absolute;
+    top: 21px;
+    right: 3px;
+    color: blue;
+    font-size: 24px;
+}
+
+.input-check-month-code {
+    display: flex;
+    justify-content: space-between;
+}
+
+#Date {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 70px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+#Year {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 70px;
+    padding: 6px 0;
+    font-weight: 600;
+}
+
+.input-code {
+    margin-right: 3px;
+}
+
+#Code {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #333;
+    width: 160px;
+    padding: 5px 0;
+    font-weight: 800;
+}
+
+.input-quickpay {
+    display: flex;
+    margin-top: 8px;
+}
+
+.checkbox-quickpay{
+    margin: 2px 4px 0 0;
+}
+
+.input-quickpay {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.Save {
+    font-size: 8px;
+    color: #a19f9f;
+}
+
+.input-payment {
+    margin-top: 8px;
+}
+
+.make {
+    width: 337px;
+    padding: 6px 0;
+    background-color: #2A3546;
+    color: #fff;
+    border: none;
+}
+
+.make:hover {
+    cursor: pointer;
+    background-color: #475a77;
+}
+
+.item-bottom {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-bottom {
+    font-size: 10px;
+}
+
+.footer-paypal {
+    margin-left: 4px;
+    font-size: 30px;
+    color: #335488;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
